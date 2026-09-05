@@ -33,6 +33,28 @@ This is a curated directory—not a mirror—of open-source resources for AI-ass
 | CUMCM/MCM 排版模板 | `CUMCM2026-Template`、`CUMCMThesis`、`jayxin/cumcm`、`MCM-Template`、`icmmcm` |
 | 历年国赛题目与附件 | `CosmicLinks/cumcm-problems` |
 
+## 下载全部32个项目
+
+打开 [DOWNLOADS.md](./DOWNLOADS.md) 可以逐项点击下载固定版本 ZIP，也可以运行批量下载器：
+
+```powershell
+git clone https://github.com/caojian1134/mathmodel-agent-resources.git
+cd mathmodel-agent-resources
+python scripts/download_all.py --destination project-archives --workers 4
+```
+
+Windows 也可以运行：
+
+```powershell
+.\scripts\download_all.ps1 -Destination .\project-archives
+```
+
+下载器会读取 [data/downloads.csv](./data/downloads.csv)，跳过已经验证有效的 ZIP，并生成大小与 SHA-256 报告。默认下载的是本目录检查时固定的 commit，不会因为上游分支更新而静默改变内容。
+
+本目录已于 **2026-09-06** 完成一次全量实测：**32/32 ZIP有效、0失败、总计1,368,959,922字节（约1.275 GiB）**。逐文件校验值见 [data/verified-downloads-2026-09-06.csv](./data/verified-downloads-2026-09-06.csv)。
+
+> 说明：压缩包直接从各项目的原始 GitHub 仓库下载。部分项目没有明确许可证，因此本仓库不重新分发或合并这些源码，只提供可复现的上游下载入口。
+
 ## 项目目录
 
 ### A. 数学建模 Agent（2）
@@ -85,7 +107,7 @@ This is a curated directory—not a mirror—of open-source resources for AI-ass
 
 32. [CosmicLinks/cumcm-problems](https://github.com/CosmicLinks/cumcm-problems) — 按年份整理的 CUMCM 1992–2025 赛题原文与配套数据；请核对上游版权与许可证后使用。
 
-完整字段、快照 commit 和许可证观察结果见 [CATALOG.md](./CATALOG.md) 与 [data/projects.csv](./data/projects.csv)。
+完整字段、快照 commit 和许可证观察结果见 [CATALOG.md](./CATALOG.md)、[data/projects.csv](./data/projects.csv) 与 [data/downloads.csv](./data/downloads.csv)。
 
 ## 使用这些项目时的推荐流程
 

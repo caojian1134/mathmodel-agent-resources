@@ -7,3 +7,6 @@ desktop.ini
 .idea/
 .vscode/
 __pycache__/
+project-archives/
+download-report.csv
+download-summary.json
