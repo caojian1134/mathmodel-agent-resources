@@ -1,0 +1,35 @@
+name: Add or update a project
+description: Suggest a new project or correct an existing entry
+title: "[Project]: "
+labels: [catalog]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Official repository URL
+    validations:
+      required: true
+  - type: textarea
+    id: purpose
+    attributes:
+      label: Purpose and mathematical-modeling use case
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: License file or page
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Verification evidence
+      description: Commit, tested command, environment, outputs, and known limitations.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Submission checks
+      options:
+        - label: I linked the original source rather than uploading third-party code.
+          required: true
+        - label: I did not include credentials, private data, contest answers, or copyrighted papers.
+          required: true

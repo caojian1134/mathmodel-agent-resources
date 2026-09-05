@@ -1,0 +1,33 @@
+id,category,name,url,short_description,snapshot_commit,skill_md_count,root_license_observed
+1,agent,ModelingAgent,https://github.com/qiancheng0/ModelingAgent,开放式真实问题数学建模Agent,dca3588ba7cf114b77ed5f89aa1f3e9ddf4a3baa,0,no
+2,agent,LLM-MM-Agent,https://github.com/usail-hkust/LLM-MM-Agent,分阶段数学建模Agent框架,unversioned-core-snapshot,0,not_checked
+3,skill,math-model-agent,https://github.com/chengziyue1222/math-model-agent,多Skill竞赛工作流,33cb044009d2dc12e7fa86e4ded6138ddb790d9a,8,yes
+4,skill,Escap1ng math-modeling-skill,https://github.com/Escap1ng/math-modeling-skill,轻量竞赛Skill,aabad820bdbde9ffd436a3061efaa5540f220517,1,yes
+5,skill,lg66 math-modeling-skill,https://github.com/lg66lgnb-sketch/math-modeling-skill,角色质量门和结果冻结,3dc18c3b3455a867bd1aa3702490c9b8b5619720,1,yes
+6,skill,VectorAC math-modeling-skill,https://github.com/VectorAC/math-modeling-skill,教学辅助与阶段审阅,734639d08fc33f3178dc6d990982491f84e6cd20,1,no
+7,skill,XiaoMaColtAI math-modeling-skill,https://github.com/XiaoMaColtAI/math-modeling-skill,多角色综合工具链,08cb5ee1df56bdd16e34a30d0153ec2d0e4d531e,20,no
+8,skill,mathematical-modeling-agent,https://github.com/Zhengxuejun/mathematical-modeling-agent,建模Agent和Skill实现,cd928efdfc05f8885d141034e9f55fef312e7020,1,yes
+9,skill,MathModel-Skill,https://github.com/yushui2022/MathModel-Skill,多宿主技能组合,7611fb2343263c9ccc3755678697b8f638739b06,30,no
+10,skill,MathModelAgent,https://github.com/jihe520/MathModelAgent,分阶段竞赛技能组,83d8783187a2d29dda1b046cb667009cc50c8203,10,no
+11,skill,MathModeling-skills,https://github.com/zhnnky329/MathModeling-skills,大规模多角色Skill集,046a6e74814c2e5fef72b5ee56305509a8635e1d,84,yes
+12,starter,MCM-AI-Starter-Kit,https://github.com/Gunp-666/MCM-AI-Starter-Kit,MCM和ICM人工智能起步资源,1ba295a30bcc50d5c70ceb45bd629c2048575ee2,0,no
+13,starter,MCM-Resource,https://github.com/dreamnight16/MCM-Resource,MCM准备资源集合,2803576bf1dca350c49f4f8506ffd7e25978cc5d,0,yes
+14,skill,EZ_math_model,https://github.com/woodfishhhh/EZ_math_model,综合Skill与工具包,ec987a561bd972465e4179f6673f7ba6424fd7aa,29,yes
+15,skill,handsomeZR mathmodel-skill,https://github.com/handsomeZR-netizen/mathmodel-skill,决策日志与十阶段流程,d3941e14d8693fb4a79948e59afff3098734127e,2,yes
+16,skill,Hjdd14 math-modeling,https://github.com/Hjdd14/math-modeling,建模代码和证据闭环,9f5239414a7a93b5f71dee0a0d626f7d0c828e11,1,yes
+17,skill,xuec699 math-modeling-skills,https://github.com/xuec699-sudo/math-modeling-skills,Manual和Autopilot质量门,0ac52b3085d8d54284647060eb07ace016d55e10,1,no
+18,skill,Hermes math-modeling,https://github.com/cha3343954211/math-modeling-skill,Hermes数学建模竞赛Skill,downloaded-without-git-metadata,1,not_checked
+19,benchmark,AgenticDataBench,https://github.com/AgenticDataBench/AgenticDataBench,数据分析Agent评测,61bb0d6be3439797d2c75a6ede198b0b296cc226,0,yes
+20,catalog,LLM4OPT,https://github.com/ishmael233/LLM4OPT,LLM与优化资源目录,dd6d83bd5ca063299b339bc514ae6398b5888ed1,0,no
+21,tool,MathAgent,https://github.com/oashua/MathAgent,数学推理与规划Agent,3f94f2e8a268ebc0fae51ab45c55bafc71cff871,0,yes
+22,tool,ORLM,https://github.com/Cardinal-Operations/ORLM,运筹优化语言模型,33bc47d0a1d1710d24ab839118bdf4cb89b9e31b,0,yes
+23,benchmark,ReSocratic,https://github.com/yangzhch6/ReSocratic,交互式优化推理与评测,27ff7ecb3c6a4955fdcb031f7bf3419c6f462d2e,0,yes
+24,benchmark,solver-in-the-loop,https://github.com/agentic-or-benchmark/solver-in-the-loop,求解器反馈闭环,c631f9c65ad7f0ae97933c4b4c6bd6a3755e0010,0,yes
+25,algorithm,MathematicalModelingAlgorithm,https://github.com/Giyn/MathematicalModelingAlgorithm,Python数学建模算法示例,9664e56a3499bb10c9d1ba371bdb147dacdc7230,0,no
+26,algorithm,CUMCM algorithms,https://github.com/fanjufei/CUMCM,MATLAB与竞赛算法入口,0d00e6e7d2ac01444e56202092954f319371ae4a,0,no
+27,template,CUMCM2026-Template,https://github.com/langonginc/CUMCM2026-Template,2026国赛LaTeX模板,5f90001309bb37dc4ec22d8cd18c921ee0673c70,0,no
+28,template,CUMCMThesis,https://github.com/latexstudio/CUMCMThesis,国赛LaTeX模板,38d1f216bec3c9ffffb7dd09bf6b6c54f486b130,0,no
+29,template,jayxin-cumcm,https://github.com/jayxin/cumcm,结构化国赛LaTeX模板,7219d1752c11c9ad333f83749fee38bd40f9ec66,0,yes
+30,template,MCM-Template,https://github.com/vladzhdanov/MCM-Template,美赛LaTeX模板,aed1f291f1f19064ae3fecef7fda1baf2fa8b47e,0,no
+31,template,icmmcm,https://github.com/harveymuddcollege/icmmcm,ICM和MCM模板,c4776b8e27d25a9e699533e52a34dc9b32852539,0,no
+32,problems,cumcm-problems,https://github.com/CosmicLinks/cumcm-problems,1992至2025国赛题目与附件,549a57d67332d439ed6fab720ef0431314aee2d6,0,no
