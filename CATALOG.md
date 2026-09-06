@@ -2,6 +2,8 @@
 
 本表最后人工检查日期为 **2026-09-06**。项目状态、默认分支、许可证和功能可能变化，应以原仓库当前内容为准。
 
+如果你尚不确定应该选择哪个项目，请先阅读[项目选择指南与横向对比表](./docs/project-selection-guide.md)。
+
 | 编号 | 类别 | 项目 | 核心定位 |
 |---:|---|---|---|
 | 1 | Agent | [ModelingAgent](https://github.com/qiancheng0/ModelingAgent) | 开放式真实问题数学建模 Agent |

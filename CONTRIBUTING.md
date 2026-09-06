@@ -1,4 +1,4 @@
-# 贡献指南
+# 贡献指南 / Contributing
 
 感谢帮助维护数学建模 Agent 资源目录。
 
@@ -6,7 +6,7 @@
 
 请同时修改：
 
-1. `README.md` 中的分类列表；
+1. `README.md`、`README_CN.md` 或选择指南中的相关入口；
 2. `CATALOG.md` 总表；
 3. `data/projects.csv` 机器可读目录。
 
