@@ -1,0 +1,47 @@
+name: Report a catalog problem
+description: Report a broken link, inaccurate description, download failure, or safety concern
+title: "[Report]: "
+labels: [catalog]
+body:
+  - type: dropdown
+    id: problem_type
+    attributes:
+      label: Problem type
+      options:
+        - Broken or changed link
+        - Inaccurate project description
+        - Download or checksum failure
+        - License information
+        - Security or unsafe behavior
+        - Contest compliance concern
+        - Other catalog issue
+    validations:
+      required: true
+  - type: input
+    id: project
+    attributes:
+      label: Project or file
+      description: Name the upstream project or repository file affected.
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: What did you observe?
+      description: Include the URL, command, date, environment, and exact error when relevant. Do not post secrets or private contest material.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Suggested correction or expected behavior
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Submission checks
+      options:
+        - label: I checked that this issue is not already reported.
+          required: true
+        - label: I removed credentials, private data, and prohibited live-contest content.
+          required: true
+
