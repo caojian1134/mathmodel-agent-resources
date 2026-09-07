@@ -15,6 +15,7 @@ import time
 import urllib.error
 import urllib.request
 import zipfile
+import zlib
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
@@ -38,7 +39,7 @@ def valid_zip(path: Path) -> bool:
     try:
         with zipfile.ZipFile(path) as archive:
             return archive.testzip() is None and bool(archive.infolist())
-    except (OSError, zipfile.BadZipFile):
+    except (OSError, zipfile.BadZipFile, zlib.error):
         return False
 
 
